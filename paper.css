@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #003366; /* Dark blue */
+}
+
+.game {
+  margin-top: 20px;
+}
+
+.choice {
+  background-color: #003366; /* Dark blue */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.choice:hover {
+  background-color: #1a53ff; /* Slightly lighter blue */
+}
+
+#result p {
+  font-size: 24px;
+  margin-top: 20px;
+}
